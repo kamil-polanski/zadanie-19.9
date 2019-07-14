@@ -1,0 +1,49 @@
+body {
+  margin: 0 auto;
+  font-family: sans-serif;
+  width: 350px;
+}
+
+.form {
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user {
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.user div {
+  display: flex;
+  align-content: center;
+  height: 100px;
+  background-color: #FF9D1F;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.user div:last-of-type {
+  border-bottom: 1px solid black;
+}
+
+.user div:nth-child(odd) {
+  background-color: #E85E01;
+}
+
+.user div a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  margin-top: 15px;
+  text-transform: capitalize;
+}
+
+.user div img {
+  margin-right: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
