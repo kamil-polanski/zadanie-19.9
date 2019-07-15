@@ -10,7 +10,7 @@
         "init:files": "touch README.md index.html script.js sass/style.scss components/app.js components/user.js userlist.js",
         "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
         "build": "npm-run-all build:* test",
-        "build:babel": "babel script.js --watch --out-file build.js",
+        "build:babel": "babel script.js --out-file build.js",
         "build:clean": "rm -rf css/*.css",
         "build:sass": "node-sass --output-style compact -o css sass",
         "build:autoprefixer": "autoprefixer-cli css/style.css",
